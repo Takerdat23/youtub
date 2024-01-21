@@ -1,0 +1,8 @@
+pytchat
+pandas 
+kafka-python
+datetime
+numpy
+transformers
+vncorenlp
+torch

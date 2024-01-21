@@ -1,0 +1,4 @@
+pytchat
+transformers
+accelerate -U
+vncorenlp
