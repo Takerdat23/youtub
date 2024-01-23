@@ -12,11 +12,6 @@ KAFKA_TOPIC_NAME_CONS = "test"
 
 
 
-
-
-
-
-
 if __name__ == "__main__":
     print("Kafka Consumer Application Started ... ")
 

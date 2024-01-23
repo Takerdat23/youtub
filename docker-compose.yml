@@ -7,7 +7,7 @@ services:
       dockerfile: Dockerfile
     working_dir: /app
     volumes:
-      - ./Final_project/:/app/Final_project
+      - ./:/app/Youtube-kafka
     command: tail -f /dev/null
 
   kafka:
