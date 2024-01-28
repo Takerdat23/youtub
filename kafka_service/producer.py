@@ -9,9 +9,9 @@ import pytchat
 
 
 # pip install kafka-python
-YOUTUBE_ID = "mCTHJdz-EB8" #change the id to your youtube id
+YOUTUBE_ID = "N7Ajxe66wcw" #change the id to your youtube id
 KAFKA_TOPIC_NAME_CONS = "test" # change the topics name as you like
-KAFKA_BOOTSTRAP_SERVERS_CONS = '172.19.0.4:9092' #change the ip address to your docker container ip 
+KAFKA_BOOTSTRAP_SERVERS_CONS = '172.18.0.4:9092' #change the ip address to your docker container ip 
 kafka_producer_obj = KafkaProducer(bootstrap_servers=KAFKA_BOOTSTRAP_SERVERS_CONS)
 if __name__ == "__main__":
 

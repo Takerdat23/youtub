@@ -17,7 +17,7 @@ RUN apt-get update && apt-get install -y wget \
 
 
 # Install Hadoop
-ENV HADOOP_VERSION=3.3.1
+ENV HADOOP_VERSION=3.3.6
 ENV HADOOP_HOME=/usr/local/hadoop
 ENV PATH=$PATH:$HADOOP_HOME/bin:$HADOOP_HOME/sbin
 

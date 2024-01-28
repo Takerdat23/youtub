@@ -9,3 +9,5 @@ torch
 pyspark
 findspark
 pyvi
+streamlit
+matplotlib

@@ -5,7 +5,7 @@ from transformers import AutoTokenizer, AutoModelForSequenceClassification, Bert
 
 
 
-model = AutoModelForSequenceClassification.from_pretrained("./Model")
+model = AutoModelForSequenceClassification.from_pretrained("./Comment_scraper/Model")
 tokenizer = AutoTokenizer.from_pretrained("vinai/phobert-base",use_fast=False)
 
 print("Model loaded !!")
