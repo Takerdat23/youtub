@@ -31,5 +31,15 @@ Start the consumer by running
 python -m kafka_service.consumer
 ```
 
+
+Start the streamlit app  
+```python
+streamlit run app.py
+```
+
+
+![alt text](./public/streamlit_app.png)
+
+
 ## References
 https://github.com/sonlam1102/vihsd.git
